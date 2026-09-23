@@ -1,0 +1,10 @@
+[
+  { "handle": "capn_static",  "region": "midwest",     "joined": 1987, "speciality": "tone_signaling" },
+  { "handle": "bluebox_88",   "region": "west_coast",  "joined": 1988, "speciality": "trunk_manipulation" },
+  { "handle": "ringmaster",   "region": "east_coast",  "joined": 1985, "speciality": "social_engineering" },
+  { "handle": "dial_ghost",   "region": "south",       "joined": 1991, "speciality": "hardware" },
+  { "handle": "operator_x",   "region": "midwest",     "joined": 1983, "speciality": "social_engineering" },
+  { "handle": "loopback",     "region": "west_coast",  "joined": 1979, "speciality": "trunk_manipulation" },
+  { "handle": "trunk_jockey", "region": "east_coast",  "joined": 1986, "speciality": "tone_signaling" },
+  { "handle": "static_alice", "region": "south",       "joined": 1990, "speciality": "hardware" }
+]

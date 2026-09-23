@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHREAK REGISTRY</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page-wrap">
+
+  <header>
+    <div class="bbs-banner">
+      *** PHREAK HANDLE REGISTRY v2.3 ***<br>
+      *** SYSOP: DIAL_GHOST | NODE: 07 ***
+    </div>
+    <div id="welcome" class="welcome-msg"></div>
+  </header>
+
+  <div class="history-note">
+    <strong>ABOUT THIS SYSTEM:</strong> Handle registries were informal databases
+    maintained within the underground computing community of the 1980s. A
+    handle was a pseudonym used in place of a real name on BBS systems and
+    in phreaking circles. This registry catalogs known handles, their regions,
+    and their areas of speciality.
+  </div>
+
+  <main>
+    <section class="search-section">
+      <label for="search-input">SEARCH HANDLE DATABASE:</label>
+      <div class="search-row">
+        <input type="text" id="search-input" placeholder="enter handle or speciality..." autocomplete="off">
+        <button id="search-btn">SEARCH</button>
+      </div>
+    </section>
+
+    <section class="results-section">
+      <div id="results-heading" class="results-heading"></div>
+      <div id="search-echo" class="search-echo"></div>
+      <div id="result-count" class="result-count"></div>
+      <div id="results-body" class="results-body"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div>PHREAK REGISTRY -- FOR EDUCATIONAL USE ONLY</div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</div>
+</body>
+</html>
