@@ -68,10 +68,8 @@ function runSearch() {
     document.getElementById("results-heading").textContent =
         "Results for: " + term;
 
-    document.getElementById("search-echo").innerHTML =
-        "Searching handles and specialities matching <em>" +
-        strip(term) +
-        "</em>";
+    document.getElementById("search-echo").textContent =
+        "Searching handles and specialities matching " + term;
 
     document.getElementById("result-count").textContent =
         matches.length + " record(s) found.";
