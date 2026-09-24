@@ -65,7 +65,7 @@ function runSearch() {
         );
     });
 
-    document.getElementById("results-heading").innerHTML =
+    document.getElementById("results-heading").textContent =
         "Results for: " + term;
 
     document.getElementById("search-echo").innerHTML =
