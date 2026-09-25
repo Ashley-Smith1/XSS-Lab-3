@@ -99,7 +99,9 @@ function runSearch() {
         document.getElementById("results-body").innerHTML = resultsHtml;
     }
 
-    setTimeout('logSearch("' + term + '")', 200);
+    setTimeout(function () {
+    logSearch(term);
+}, 200);
 }
 
 /**
