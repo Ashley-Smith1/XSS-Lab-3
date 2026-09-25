@@ -18,7 +18,7 @@ fetch("data/handles.json")
 function loadWelcome() {
     var operatorName = location.hash.replace("#", "");
     if (operatorName.length > 0) {
-        document.getElementById("welcome").innerHTML =
+        document.getElementById("welcome").textContent =
             "Welcome back, " + operatorName + ".";
     }
 }
